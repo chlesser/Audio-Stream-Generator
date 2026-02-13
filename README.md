@@ -95,3 +95,13 @@ Technically, you can directly change the ambiance prefab's parameters, though I 
 ## Additional Features
 ### Volume Control
 The volume control can be called from other scripts, which will update the user's audio preferences for future launches. For example, if you create a slider that links to user preference of ambiance volume, music volume, and both, you can allow them to permanently adjust this.
+### Passes
+If you want it to sound like a track is muffled, try adding in a low pass filter! This will make only low frequencies play.
+## Unsolved Issues
+I am aware that at this time, there is no way to edit the tool midway through game play. This is an issue I hope to resolve relatively soon.
+Sometimes, tracks will play at the same time if they end up randomizing into playing at the same time. This will often sort itself out.
+If you use more (or the same amount) of tracks as uploaded sound bites, it will not play! And potentially break. Do not do this.
+## Iteratave Approach
+In a trial run of this tool, I learned many things. Many people were confused about what each parameter did, and I hope that this documentation has improved it! The perlin noise was also clunkier to work with, so I fixed it up. I also removed perlin controlling volume from 0-100 as this was too varied, according to user feedback. I was unable to solve the midway through play issue, however.
+## Example
+https://youtu.be/XrKSzfM1bbg
