@@ -4,12 +4,18 @@ I suggest familiarizing oneself with the Unity Audio Mixer, but technically it i
 ## How to Use
 ### Installation
 1. Download the above ASG.unitypackage
+<img width="903" height="275" alt="image" src="https://github.com/user-attachments/assets/3a3a491c-9ec4-4628-820d-11f09ba86b27" />
 2. Import it into your unity project of choice.
-3. Drag the AudioStreamGenerator prefab into your scene. Note that it does NOT carry between scenes, though you may add this yourself.
+3. Drag the AudioStreamGenerator prefab into your scene. Note that it does NOT carry between scenes, though you may add this yourself. It can be found in Audio/ASG/Prefabs
+<img width="1473" height="942" alt="image" src="https://github.com/user-attachments/assets/112229b8-be0f-4f9b-b950-5c6b8a8da2bd" />
+
 ### Clip Import
 1. On the importer child, specify the desired folders and the various options.
+<img width="442" height="602" alt="image" src="https://github.com/user-attachments/assets/d8b9c740-28c5-47df-b11f-390c90d6f6a2" />
 2. Click import music, import ambiance, or import both.
-3. Return to the main gameObject. The list of audio clips should have been updated!
+3. Return to the main gameObject. The list of audio clips should have been updated! Simply adjust parameters and run the tool.
+<img width="447" height="782" alt="image" src="https://github.com/user-attachments/assets/b50f3c8c-f8e4-43cc-bd99-b4468def5dfa" />
+
 ### Fine Tuning
 Note that this tool does NOT update midway through the play session in many cases. Play with it by stopping and starting the scene, and see the parameter section below.
 ## Parameters
