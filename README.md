@@ -26,16 +26,19 @@ Delay
 	- How long, on average, the ambiance object should wait before playing the next ambiance clip.
 - Random Delay Between Ambiance
 	- How far the real delay can deviate from the average. This is floored at 0.
+
 Fade
 
 - Fade Control
 	- What percentage of the clips are spent fading in or out.
+
 Perlin
 
 - Perlin Volume
 	- Whether or not to add small modifications to volume based off perlin noise.
 - Volume variation
 	- How much the perlin volume variation can change from the base volume
+
 Clips
 
 - Volume
@@ -43,6 +46,7 @@ Clips
 - Priority
 	- How likely the clip is to be chosen next. Increasing by 1 nearly doubles chance of being chosen (1->20 to 2->21), and so forth.
 ### Importer
+
 Target
 - Do not modify the target generator. It is the parent gameobject.
 
