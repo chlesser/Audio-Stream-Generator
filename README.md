@@ -20,19 +20,23 @@ General Settings
 - Tracks
 	- How many ambiance objects play at once. They are all on their own delays, so will stack. Increasing this will add to how much simultaneous noise is in the scene, decreasing it will decrease simultaneous noise.
 Delay
+
 - Delay Between ambiance
 	- How long, on average, the ambiance object should wait before playing the next ambiance clip.
 - Random Delay Between Ambiance
 	- How far the real delay can deviate from the average. This is floored at 0.
 Fade
+
 - Fade Control
 	- What percentage of the clips are spent fading in or out.
 Perlin
+
 - Perlin Volume
 	- Whether or not to add small modifications to volume based off perlin noise.
 - Volume variation
 	- How much the perlin volume variation can change from the base volume
 Clips
+
 - Volume
 	- How loud the clip is.
 - Priority
@@ -40,22 +44,28 @@ Clips
 ### Importer
 Target
 - Do not modify the target generator. It is the parent gameobject.
+
 Resource Folders
 - Destinations
 	- The destination of the music/ambiance folders (from root, including assets)
 - Subfolders?
 	- Whether or not to search in the various subfolders of these folders. May be bugged.
+
 Defaults
 - Sets defaults for imported clips of volume and priority above.
+
 Import Behavior
 - Clear target list first
 	- If there are already clips, clear them first.
 - Skip duplicates
 	- If a clip has a clip of the same name in the list, skip importing that one.
+
 Parse Metadata
 - If the clip is named a certain way, as: `name__v0.8__p5`, where what follows v is volume and what follows p is priority, it will import with that volume and priority.
+
 Import Tools
 - Click to import to the AudioStreamGenerator!
+
 ### Audio Mixer
 Change volume in the audio mixer! There are also many, many effects to add. I encourage you to research it!
 ### Volume Manager
