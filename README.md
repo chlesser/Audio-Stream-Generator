@@ -17,8 +17,9 @@ Note that this tool does NOT update midway through the play session in many case
 Do not edit any items in the audio manager. It is entirely for in-game usage.
 ### Stream Generator
 General Settings
-	- Tracks
-		- How many ambiance objects play at once. They are all on their own delays, so will stack. Increasing this will add to how much simultaneous noise is in the scene, decreasing it will decrease simultaneous noise.
+- Tracks
+	- How many ambiance objects play at once. They are all on their own delays, so will stack. Increasing this will add to how much simultaneous noise is in the scene, decreasing it will decrease simultaneous noise.
+
 Delay
 
 - Delay Between ambiance
